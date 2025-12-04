@@ -33,5 +33,5 @@ jobs:
       - name: Upload compiled code
         uses: actions/upload-artifact@v4
         with:
-          name: hello_world.exe
+          name: ${{ matrix.compiler }}_hello_world.exe
           path: hello_world.exe

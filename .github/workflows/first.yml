@@ -2,7 +2,7 @@
 
 name: CI
 
-run-name: ${{ github.action }} started by ${{ github.actor }}
+run-name: ${{ github.workflow }} started by ${{ github.actor }}
 
 # Controls when the workflow will run
 on:
